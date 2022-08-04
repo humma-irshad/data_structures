@@ -122,6 +122,8 @@ int main() {
             case 7:
                 cout << "Enter the value of item: ";
                 cin >> value;
+                cout << "Enter the position where you want to change: ";
+                cin >> position;
                 stk_1.change(position, value);
                 break;
             case 8:
