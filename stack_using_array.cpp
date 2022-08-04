@@ -22,7 +22,7 @@ class Stack {
         }
         
         bool isFull() {
-            if(top == 4)
+            if(top == size)
                 return true;
             else
                 return false;
