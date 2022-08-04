@@ -52,6 +52,6 @@ int main() {
     cout << "How many nodes do you want to create? ";
     cin >> n;
     for(int i = 0; i < n; i++)
-        createNode();
+        createNode(i);
     frequency();
 }
